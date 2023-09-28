@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF3E0;
+    color: #8B7355;
+  }
+  nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden;
+  }
+  
+  
+  nav ul li {
+    display: inline; 
+    margin-right: 40px;
+    float: left;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; 
+  }
+  
+  nav ul li a {
+    font-size: 20px; 
+  }
+  
+  .navbar {
+    margin-bottom: 30px;
+    background-color: #F5DEB3;
+  }
+  
+  .container h1,
+  .container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    background-color: #FFF5E1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cakes {
+    border: 1px solid #D2B48C;
+    padding: 15px;
+    margin: 10px;
+    background-color: #FFF5E1;
+    text-align: center;
+  }
+  .cakes img{
+    width: 400px;
+    height: 400px
+  }
+  
+  .btn-primary {
+    background-color: #8B7355;
+    border-color: #8B7355;
+  }
+  
+  .btn-primary:hover {
+    background-color: #735138;
+    border-color: #735138;
+  }
+
+  .one-line-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .one-line-nav .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .one-line-nav .nav-item {
+    margin-left: 20px;
+  }
+    
